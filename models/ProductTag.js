@@ -13,13 +13,19 @@ ProductTag.init(
       autoIncrement: true,
       primaryKey: true
     },
-    // need to write references to this model's id
     product_id: {
       type: DataTypes.INTEGER,
+      references: {
+        model: 'product',
+        key: 'id'
+      }
     },
-    // needs to reference tag model's id
     tag_id: {
       type: DataTypes.INTEGER,
+      references: {
+        model: 'tag',
+        key: 'id'
+      }
     },
   },
   {
