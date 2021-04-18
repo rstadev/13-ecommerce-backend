@@ -27,4 +27,8 @@ Category.init(
   }
 );
 
+// For model testing
+// const test = Category.build({category_name: 'Pool supplies'})
+// console.log(test.toJSON());
+
 module.exports = Category;

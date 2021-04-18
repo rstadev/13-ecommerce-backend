@@ -10,8 +10,8 @@ ProductTag.init(
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      primaryKey: true,
       autoIncrement: true,
-      primaryKey: true
     },
     product_id: {
       type: DataTypes.INTEGER,
@@ -36,5 +36,10 @@ ProductTag.init(
     modelName: 'product_tag',
   }
 );
+
+
+// for model testing
+// const test = ProductTag.build({product_id: '1', tag_id: '2'})
+// console.log(test.toJSON());
 
 module.exports = ProductTag;

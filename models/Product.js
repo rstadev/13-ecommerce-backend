@@ -27,8 +27,8 @@ Product.init(
         isDecimal: true
       }
     },
-    stock : {
-      thpe: DataTypes.INTEGER,
+    stock: {
+      type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
       validate: {
@@ -51,5 +51,9 @@ Product.init(
     modelName: 'product',
   }
 );
+
+// For model testing
+// const test = Product.build({product_name: 'test product', price: '200', stock: '3', catagory_id: '1'})
+// console.log(test.toJSON());
 
 module.exports = Product;

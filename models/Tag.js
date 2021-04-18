@@ -15,7 +15,7 @@ Tag.init(
     },
     tag_name: {
       type: DataTypes.STRING,
-    }
+    },
   },
   {
     sequelize,
@@ -25,5 +25,9 @@ Tag.init(
     modelName: 'tag',
   }
 );
+
+// For model testing
+// const test = Tag.build({tag_name: 'fun'})
+// console.log(test.toJSON());
 
 module.exports = Tag;
