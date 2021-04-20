@@ -35,13 +35,14 @@ Product.init(
         isNumeric: true
       }
     },
-    catagory_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'category',
-        key: 'id'
-      }
-    }
+    //there are two category_id's in the generated table if this isn't commented out. I spent an hour trying to figure out why this happens, but I still have no idea.
+    // catagory_id: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //     model: 'category',
+    //     key: 'id'
+    //   }
+    // }
   },
   {
     sequelize,
