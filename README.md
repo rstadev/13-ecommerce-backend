@@ -11,6 +11,8 @@
   <br>
 
   ![ReadMeGen Picture](./assets/ecommercedemo.png))
+
+  Demo Video: https://github.com/rstadev/13-ecommerce-backend/blob/main/assets/ecommercedemo.mp4
   
   
   ## Table of Contents
@@ -30,7 +32,7 @@
 
 
   ## Usage
-  To use this app, download this file on github. Create a .env file and fill it with your user information. Run the 'create database' command located in the schema file in the db folder. Then run npmm start, npm seed, then npm start again. This syncs the table structure, creates the data, then starts the server. From here you should be able to use postman and insomnia to handle data manipulation. You can also view a usage video here: .
+  To use this app, download this file on github. Create a .env file and fill it with your user information. Run the 'create database' command located in the schema file in the db folder. Then run npmm start, npm seed, then npm start again. This syncs the table structure, creates the data, then starts the server. From here you should be able to use postman and insomnia to handle data manipulation. You can also view a usage video here: https://github.com/rstadev/13-ecommerce-backend/blob/main/assets/ecommercedemo.mp4.
   <br>
 
   ## License
